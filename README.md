@@ -1,38 +1,41 @@
-# create-svelte
+<div align="center">
+  <h3 align="center">Hachi Grouper</h3>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+  <p align="center">
+    使用现代 Web 技术制作的桌面端应用小八分组器
+  </p>
+</div>
 
-## Creating a project
+## 日本の雇い主へ
+このプロジェクトは nano-portfolio の中に展示しません、その原因はこのプロジェクトはあんまりも小さいたから、それに中国語だけのインターフェースだから展示には不適切と判断された。
+もし少しでも興味があたら source codeをご覧ください、完全に modularized の component です、現代ウブ標準化するものです。
+ハチグローパー(HachiGrouper)の名前はアニメちいかわ(Chiikawa)のキャラクターの名前です、とてもかわいいです!! 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 项目简介
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<p align="center">
+    <img src="/static/logo.png">
+</p>
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## 技术栈
+
+- Svelte4.x
+- Tauri1.x
+- SvelteKit2.x
+- TailwindCSS
+- DaisyUI
+- ES6+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 开始
+
+```sh
+$ pnpm install # install dependencies
+$ pnpm dev # run
 ```
 
-## Developing
+## 贡献者
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+The project developed by gaomingzhao666@Nano
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
